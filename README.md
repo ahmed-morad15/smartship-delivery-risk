@@ -56,15 +56,11 @@ Artifacts:
 - `reports/results/feature_importance.csv` – tree-model feature importance (associational, not causal).
 - `reports/figures/` – confusion matrix, ROC, precision-recall, and feature-importance plots.
 
-### Key result figures
+## Application Preview
 
-![Confusion matrix](reports/figures/confusion_matrix.png)
+![SmartShip GUI](docs/images/smartship_gui.png)
 
-![ROC curve](reports/figures/roc_curve.png)
-
-![Precision-recall curve](reports/figures/precision_recall_curve.png)
-
-![Feature importance](reports/figures/feature_importance.png)
+*SmartShip – Streamlit application interface for e-commerce delivery risk prediction.*
 
 ## Modeling notebooks
 
@@ -115,10 +111,4 @@ SmartShip/
 ├── src/features/             # order-level feature construction
 ├── src/models/               # model training and evaluation
 └── tests/                    # project tests
-```
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for Streamlit Community Cloud deployment and [reports/LinkedIn_post.md](reports/LinkedIn_post.md) for a project announcement draft.
-
-## Presentation
-
-The 11-slide project presentation is available at [`docs/SmartShip_Presentation.pptx`](docs/SmartShip_Presentation.pptx).
+``
