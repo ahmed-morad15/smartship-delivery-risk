@@ -1,0 +1,69 @@
+{
+  "selected_model_family": "Extra Trees",
+  "cv_sample_size": 12000,
+  "best_cv_f1": 0.17773046164785078,
+  "oof_selected_threshold": 0.3986786051461602,
+  "oof_f1_at_threshold": 0.23689449236894491,
+  "best_params": {
+    "model__n_estimators": 60,
+    "model__min_samples_leaf": 1,
+    "model__max_depth": 24
+  },
+  "majority_baseline_test_metrics": {
+    "accuracy": 0.9188867005286617,
+    "precision_late": 0.0,
+    "recall_late": 0.0,
+    "f1_late": 0.0
+  },
+  "test_metrics": {
+    "accuracy": 0.6379703534777651,
+    "precision_late": 0.14020180562931492,
+    "recall_late": 0.6747603833865815,
+    "f1_late": 0.23216444981862153,
+    "roc_auc": 0.7080682054293816,
+    "pr_auc": 0.21500923812439077
+  },
+  "test_confusion_matrix": [
+    [
+      11253,
+      6476
+    ],
+    [
+      509,
+      1056
+    ]
+  ],
+  "train_size": 77176,
+  "test_size": 19294,
+  "train_late_rate": 0.08112625686741992,
+  "test_late_rate": 0.08111329947133825,
+  "test_period_start": "2016-10-03 21:13:36",
+  "test_period_end": "2018-08-29 14:18:28",
+  "classification_report": {
+    "0": {
+      "precision": 0.956725046760755,
+      "recall": 0.6347227706018388,
+      "f1-score": 0.7631480790749721,
+      "support": 17729.0
+    },
+    "1": {
+      "precision": 0.14020180562931492,
+      "recall": 0.6747603833865815,
+      "f1-score": 0.23216444981862153,
+      "support": 1565.0
+    },
+    "accuracy": 0.6379703534777651,
+    "macro avg": {
+      "precision": 0.548463426195035,
+      "recall": 0.6547415769942102,
+      "f1-score": 0.4976562644467968,
+      "support": 19294.0
+    },
+    "weighted avg": {
+      "precision": 0.8904941525775529,
+      "recall": 0.6379703534777651,
+      "f1-score": 0.7200782449407236,
+      "support": 19294.0
+    }
+  }
+}

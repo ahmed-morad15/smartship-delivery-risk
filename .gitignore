@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+.DS_Store
+# Generated artifacts are reproducible; keep the final trained pipeline for Streamlit deployment.
+!models/smartship_pipeline.joblib
